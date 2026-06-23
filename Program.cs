@@ -65,7 +65,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// Always enable Swagger
+// Always enable Swagger this is for apis 
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
