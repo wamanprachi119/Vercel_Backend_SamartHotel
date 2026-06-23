@@ -319,3 +319,5 @@ D:\SmartHotel_Using_Scanner\SmartHotel_Fixed_Language\SmartHotel_Fixed_v2\SmartH
 D:\SmartHotel_Using_Scanner\SmartHotel_Fixed_Language\SmartHotel_Fixed_v2\SmartHotelBackend\obj\Debug\net8.0\SmartHotelBackend.pdb
 D:\SmartHotel_Using_Scanner\SmartHotel_Fixed_Language\SmartHotel_Fixed_v2\SmartHotelBackend\obj\Debug\net8.0\SmartHotelBackend.genruntimeconfig.cache
 D:\SmartHotel_Using_Scanner\SmartHotel_Fixed_Language\SmartHotel_Fixed_v2\SmartHotelBackend\obj\Debug\net8.0\ref\SmartHotelBackend.dll
+D:\SmartHotel_Using_Scanner\SmartHotel_Fixed_Language\SmartHotel_Fixed_v2\SmartHotelBackend\bin\Debug\net8.0\Vercel.json
+D:\SmartHotel_Using_Scanner\SmartHotel_Fixed_Language\SmartHotel_Fixed_v2\SmartHotelBackend\obj\Debug\net8.0\SmartHotelBackend.sourcelink.json
