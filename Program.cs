@@ -31,18 +31,9 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins(
-            "http://localhost:5173",
-            "http://localhost:5174",
-            "http://localhost:5175",
-            "http://localhost:5176",
-            "http://localhost:3000",
-            "http://127.0.0.1:5173",
-            "http://127.0.0.1:5174",
-            "http://127.0.0.1:5175"
-        )
-        .AllowAnyHeader()
-        .AllowAnyMethod();
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
     });
 });
 
@@ -85,6 +76,12 @@ app.UseSwaggerUI(c =>
 app.UseCors();
 app.UseAuthorization();
 app.MapControllers();
+
+app.MapGet("/", () => Results.Ok(new
+{
+    message = "Smart Hotel Backend Running",
+    status = "ok"
+}));
 
 // ✅ Health check endpoint — useful for debugging
 app.MapGet("/health", async (SmartHotelContext db) =>
