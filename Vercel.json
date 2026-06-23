@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "SmartHotelBackend.csproj",
+       "src": "SmartHotelBackend/SmartHotelBackend.csproj",
       "use": "@vercel/dotnet"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "SmartHotelBackend.csproj"
+      "dest": "SmartHotelBackend/SmartHotelBackend.csproj"
     }
   ]
 }
